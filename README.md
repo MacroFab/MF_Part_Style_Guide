@@ -172,3 +172,4 @@ Example: FT232RL will be called FT232R as that is the family name of the part.
  - X    - crystal or oscillator
 
 See [MF_Examples.lbr](https://github.com/MacroFab/Part_Style_Guide/blob/master/MF_Examples.lbr) for all the examples. 
+
