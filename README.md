@@ -26,7 +26,8 @@ Each part will be pre-classified to which library it will be added to. The list 
 - MF_DigitalIC
 - MF_Connectors
 - MF_AnalogIC
-- MF_Aesthetrics
+- MF_Aesthetics
+
 ***
 **Footprints**
 
@@ -90,7 +91,7 @@ Use the Manufacturer's datasheet of the part to build the symbol. Usually includ
 
  1\. Digital grounds will be represented by one pin. Same goes for Power and Analog grounds. Gounds shall be named GND and Power shall be named VCC.
 
- 2\. NC or Non Connection shall be ignored.
+ 2\. NC or No Connection should not be included in symbol.
 
  3\. Use a “!” at the beginning of the pin name to denote active low states. 
  
@@ -109,10 +110,20 @@ Use the Manufacturer's datasheet of the part to build the symbol. Usually includ
 <b>Datasheet:</b> <a href="http://www.ftdichip.com/Support/Documents/DataSheets/ICs/DS_FT232R.pdf">Link</a>
 ```
 
- 8\. Pin properties are as follows
+ 8\. Each pin must have the direction set. The direction of the pin should be set using the following guidelines. 
+ 
+ - In: input
+ - Out: output
+ - IO: in/output (bidirectional)
+ - OC: open collector or open drain
+ - Hiz: high impedance output (3-state)
+ - Pas: passive (resistors, capacitors, inductors)
+ - Pwr: power input pin (Vcc, Gnd, Vss, Vdd)
+ - Sup: general supply pin (ground symbol) Do not use on part symbols. 
+
+9\. Other pin properties are as follows
 
  - Name: Use Name of the Pin
- - Direction: io
  - Length: short
  - Function: none
  - Visible: pin
