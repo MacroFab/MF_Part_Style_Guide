@@ -133,14 +133,14 @@ Use the Manufacturer's datasheet of the part to build the symbol. Usually includ
 
 ![Symbol of the FT232R as seen in the datasheet.](https://raw.githubusercontent.com/MacroFab/Part_Style_Guide/master/FT232RL_Symbol.png)
 
-![Example Eagle symbol of the FT232R.](https://raw.githubusercontent.com/MacroFab/Part_Style_Guide/master/FT232RL_Symbol_Eagle.png)
+![Example Eagle symbol of the FT232R.](https://github.com/MacroFab/Part_Style_Guide/raw/master/FT232RL_Symbol_Eagle.png)
 
 ***
 **Example: P8X32**
 
 ![Symbol of the P8X32 as seen in the datasheet.](https://raw.githubusercontent.com/MacroFab/Part_Style_Guide/master/P8X32A_Symbol.png)
 
-![Example Eagle symbol of the P8X32.](https://raw.githubusercontent.com/MacroFab/Part_Style_Guide/master/P8X32A_Symbol_Eagle.png)
+![Example Eagle symbol of the P8X32.](https://github.com/MacroFab/Part_Style_Guide/raw/master/P8X32A_Symbol_Eagle.png)
 
 ***
 **Devices**
