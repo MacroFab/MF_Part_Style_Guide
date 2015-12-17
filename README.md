@@ -47,9 +47,9 @@ Use the Manufacturer's specific layout/package for the footprint if it is in the
 
 5. Pin 1 of the footprint will start in the upper left side of the footprint and count down.
 
-6. Each footprint will be enclosed by a silkscreen. This silkscreen must represent the maximal area of the part and enclose the pads. The thickness of this silkscreen is 0.127mm or 5mils. It will be on the “21 tPlace” layer. 
+6. Each footprint will be enclosed by a silkscreen. This silkscreen must represent the maximal area of the part and enclose the pads. The thickness of this silkscreen is 0.127mm or 5mils.
 
-7. Orientation of the footprint will be denoted with a filled in rectangle and be near pin 1. It will be on layer “21 tPlace”.
+7. Orientation of the footprint will be denoted with a filled in rectangle and be near pin 1. 
 
 8. Pads will be named by the normal naming convention of Eagle. Ex. P$1, P$2….
 
