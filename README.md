@@ -1,7 +1,7 @@
+![MF_ED_Logo](MacroFab_ED_600px.png)
+***
 ###Part_Style_Guide
 ***
-
-**Part Style Guide**
 
 This document dictates how parts are designed and styled to give a consistent experience for users and increase the speed of the pick and place vision systems.
 
@@ -55,7 +55,7 @@ Use the Manufacturer's specific layout/package for the footprint if it is in the
 
 9. Each footprint will have the designator near the first pin of the footprint. The specifications for the designator are as follows.
 
-  - Size: 0.8128mm or 32mils
+  - Size: 1.016mm or 40mils
   - Ratio: 16%
   - Line Distance: 50%
   - Font: Vector
@@ -99,7 +99,7 @@ Use the Manufacturer's datasheet of the part to build the symbol. Usually includ
 
  5\. Rectangle to represent the part will be width 10mils and on layer “94 Symbols”.
 
- 6\. Name and Value of the symbol will be near the top left corner. Font will be size 70mils, ratio 8%, font vector. >NAME will be placed in the “95 Names” layer and >VALUE will be placed in “96 Values” layer.
+ 6\. Name and Value of the symbol will be near the top left corner. Font will be size 40mils, ratio 8%, font vector. >NAME will be placed in the “95 Names” layer and >VALUE will be placed in “96 Values” layer.
 
  7\. A detailed description of the part is required. Showing what the family part number is, manufacturer, and a short description of the part. The description field uses standard HTML formatting. Use the following example as a template. 
 
@@ -170,6 +170,14 @@ Example: FT232RL will be called FT232R as that is the family name of the part.
  - TP   - test point
  - U    - integrated circuit (sensor, MCU, etc.)
  - X    - crystal or oscillator
+ 
+6. The following attributes should be added to each device. 
+
+ - HOUSEPART
+ - MPN
+ - POPULATE
+ - URL
+ - VALUE
 
 See [MF_Examples.lbr](https://github.com/MacroFab/Part_Style_Guide/blob/master/MF_Examples.lbr) for all the examples. 
 
