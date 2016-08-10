@@ -2,6 +2,7 @@
 ***
 ###Part_Style_Guide
 ***
+**Part Style Guide for part footprints.**
 
 This document dictates how parts are designed and styled to give a consistent experience for users and increase the speed of the pick and place vision systems.
 
